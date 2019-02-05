@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: rgba(245, 115, 115, 0.788);
+}
+header {
+    background-color: beige
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.nav-header a {
+    text-decoration: none;
+}
+
+.cor-vermelha {
+    color:red;
+}
+
+#header-pesquisa {
+    color: green;
+}
+
+#header-pesquisa::placeholder {
+    color: aqua;
+}
+
+textarea  {
+    resize: none
+}
+
+.formulario-contato {
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contato p, .formulario-contato h3 {
+    font-size: 18pt;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.negrito:hover {
+    color: lawngreen;
+}
+
+img {
+    opacity: 1;
+}
+
+img:hover {
+    opacity: 0,5;
+}
+
+button {
+    cursor:pointer;
+}
